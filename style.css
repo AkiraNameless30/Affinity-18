@@ -1,0 +1,115 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
+  background:#f4f4f4;
+}
+header {
+  background:#333;
+  color:#fff;
+  padding:20px;
+  text-align:center;
+}
+nav {
+  background:#444;
+  padding:10px;
+  text-align:center;
+}
+nav a {
+  color:#fff;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+nav a:hover {
+  color:#FFD700;
+}
+main {
+  padding:20px;
+}
+form {
+  background:#fff;
+  padding:20px;
+  border-radius:5px;
+  max-width:400px;
+  margin:auto;
+}
+input, select, textarea, button {
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+}
+button {
+  background:#007BFF;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+}
+button:hover {
+  background:#0056b3;
+}
+footer {
+  background:#333;
+  color:#fff;
+  text-align:center;
+  padding:10px;
+  margin-top:20px;
+}
+table {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+th, td {
+  border:1px solid #ccc;
+  padding:10px;
+  text-align:center;
+}
+th {
+  background:#333;
+  color:#fff;
+}
+tr:nth-child(even) {
+  background:#f9f9f9;
+}
+.approve {
+  background:#28a745;
+  color:#fff;
+  border:none;
+}
+.reject {
+  background:#dc3545;
+  color:#fff;
+  border:none;
+}
+.approve:hover {
+  background:#218838;
+}
+.reject:hover {
+  background:#c82333;
+}
+.dashboard {
+  display:flex;
+  justify-content:space-around;
+  margin:20px 0;
+}
+.card {
+  background:#fff;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+  width:30%;
+  text-align:center;
+}
+.card h3 {
+  margin:0;
+  color:#333;
+}
+.card p {
+  font-size:24px;
+  font-weight:bold;
+  margin:10px 0;
+}
